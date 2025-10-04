@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 DB_USER = os.getenv('MYSQL_USER', 'root')
-DB_PASS = os.getenv('MYSQL_PASSWORD', 'password')
+DB_PASS = os.getenv('MYSQL_PASSWORD', '1:733&!XmZM3')
 DB_HOST = os.getenv('MYSQL_HOST', 'localhost')
 DB_NAME = os.getenv('MYSQL_DB', 'notesdb')
 
